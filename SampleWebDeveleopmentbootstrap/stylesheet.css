@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 27, 2015, 1:29:58 PM
+    Author     : nibasabin
+*/
+
+
+#logo{
+               background-color:#269abc;
+               background-size:cover; 
+               background-image: url(elo1.jpg);
+               background-repeat:no-repeat;
+               height:200px;
+               //margin-top: 0px;
+               //position:fixed;
+}
+#infobox
+{
+    border-color: #269abc;
+    border-style: solid;
+    margin-right: 10px;
+    margin-left: 0px;
+    border-width:1px;
+}
+#footer
+{
+    border-color:red;
+    border-width:1px;
+    background-color:black;
+    height:10px;
+}
+
+.well{
+    background-color:#6699ff
+}
+#membersPic{
+    margin-right:5px;
+    height:234px;
+    width:200px;
+    float:left;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        background-color: black;
+        background-size:cover;
+        background-image: url(elo1.jpg);
+        height:auto;
+  font-size: 50%;
+    }
+    
+  #ClickHereToApply
+  {
+      height:25px;
+      width:100px;
+      font-size:9px;
+     // color:black;
+  }
+
+  
+}
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
+.navbar navbar-default{height:32px;}
+
+ .navbar-default .navbar-nav > li > a:hover{
+                background-color:#269abc;
+                color: white;
+            }
+            
+            .navbar-default .navbar-nav > li > a:focus {
+                  background-color:white;
+                color:#269abc;
+            }
+ .navbar-default .navbar-nav > .active{
+    color: #269abc;
+   //background:
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color:#269abc;
+     // background:#269abc;
+ }
+ .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+     background-color:#e7e6e6;
+     font-size:12px;
+ 
+  }
+  
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #269abc;
+    background-image: none;
+}
+#myCarousel{
+    height:300px;
+    width:100%;
+    border-style:solid;
+    border-width:1px;
+    border-color:#269abc;
+    margin-left: 0px;
+}
